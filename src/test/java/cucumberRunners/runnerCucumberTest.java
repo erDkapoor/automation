@@ -9,7 +9,8 @@ import org.testng.annotations.DataProvider;
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		"rerun:target/failed_scenarios.txt"}, monochrome = true)
 
-public class runnerCucumberTest extends AbstractTestNGCucumberTests {
+public class runnerCucumberTest extends AbstractTestNGCucumberTests  {
+
 
 	@Override
 	@DataProvider(parallel = true)

@@ -2,7 +2,6 @@ package stepDefinitions;
 
 import base.Base;
 import io.cucumber.java.After;
-
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -26,15 +25,18 @@ public class Hooks {
 	}
 
 	@Before
-	public void setUp() {
+	public void setUp(Scenario scenario) {
+
 		base.WebDriverManager();
 		this.driver = base.getDriver();
 		driver.get("https://www.google.co.in/");
+		System.out.println(scenario.getName()+"hi");
 
 	}
 
 	@After
-	public void tearDown() {
+	public void tearDown(Scenario scenario) {
+
 
 		base.WebDriverQuit();
 	}

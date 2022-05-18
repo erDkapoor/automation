@@ -1,11 +1,12 @@
 package base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import listeners.WebDriverList;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pageFactory.HomePage;
 
-public class Base {
+public class Base extends WebDriverList {
 	public WebDriver driver;
 	public HomePage homePage;
 

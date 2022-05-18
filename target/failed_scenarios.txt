@@ -1,2 +1,0 @@
-file:src/test/featuresFiles/new.feature:3
-file:src/test/featuresFiles/newFeature.feature:3

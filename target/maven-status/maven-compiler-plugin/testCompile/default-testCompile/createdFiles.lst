@@ -1,7 +1,0 @@
-stepDefinitions\newFeature.class
-cucumberRunners\runnerRetryTest.class
-pageFactory\HomePage.class
-stepDefinitions\Hooks.class
-cucumberRunners\runnerCucumberTest.class
-pageFactory\SecondPage.class
-base\Base.class
